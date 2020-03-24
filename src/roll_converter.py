@@ -75,6 +75,7 @@ def processChordCSV(csv):
         chords.append(findChordFromName(name))
     return chords
 def main():
+    print("please input csv chords:::")
     x = input()
     chords=processChordCSV(x)
     printChordNames(chords)
